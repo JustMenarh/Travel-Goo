@@ -437,7 +437,7 @@
   position: absolute;
   bottom: 85px;
   left: 590px;
-  max-width: 40px;
+  width: 40px;
   margin-top: 40px;
 }
 .subscribe-form{
