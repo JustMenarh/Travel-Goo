@@ -182,8 +182,8 @@
   margin-bottom: 60px;
 }
 .review-cd {
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  min-height: 200px;
   padding-right: 40px;
   padding-left: 40px;
   padding-top: 40px;
@@ -203,7 +203,7 @@
 .destination-wrap {
   width: 100%;
   /* border: 1px solid steelblue; */
-  height: 650px;
+  min-height: 650px;
   padding-right: 60px;
 }
 .destination-wrap h1 {
@@ -228,7 +228,7 @@
   gap: 18px;
 }
 .destination-wrap-two {
-  width: 450px;
+  max-width: 450px;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -275,8 +275,8 @@
   /* border: 1px solid sandybrown; */
 }
 .package-description {
-  width: 301px;
-  height: 390px;
+  max-width: 301px;
+  min-height: 390px;
   /* display: flex;
   flex-direction: column;
   align-items: center; */
@@ -285,13 +285,13 @@
   border-radius: 10px;
 }
 .pd-img {
-  width: 301px;
-  height: 250px;
+  max-width: 301px;
+  min-height: 250px;
   object-fit: cover;
   object-position: top;
 }
 .package-description-one {
-  width: 300px;
+  max-width: 300px;
   /* background-color: white; */
   /* border-radius: 15px 0 0 15px; */
   /* border: 1px solid hotpink; */
@@ -309,7 +309,7 @@
 }
 .pd-dp-text-one {
   font-size: 11px;
-  width: 240px;
+  max-width: 240px;
   margin: 30px 0;
   padding-left: 10px;
   padding-right: 10px;
@@ -337,7 +337,7 @@
   width: 100%;
   background: white;
   /* border: 1px solid steelblue; */
-  height: 500px;
+ min-height: 500px;
   padding-top: 35px;
 }
 .booking-wrap h1{
@@ -352,7 +352,7 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
-  height: 310px;
+  min-height: 310px;
   margin: 40px auto;
   /* border: 1px solid blanchedalmond; */
 }
@@ -360,7 +360,7 @@
   display: flex;
   gap: 20px;
   /* justify-content: space-between; */
-  width: 360px;
+  max-width: 360px;
   margin-top: 40px;
 }
 .bk-icon{
@@ -369,14 +369,14 @@
 }
 .bk-text{
  text-align: justify;
- width: 250px;
- height: 60px;
+ max-width: 250px;
+ min-height: 60px;
  font-size: 12px;
  font-weight: 400;
 }
 .bk-image{
-  width: 395px;
-  height: 420px;
+  max-width: 395px;
+  min-height: 420px;
   margin-top: -50px;
   object-fit: cover;
 }
@@ -392,7 +392,7 @@
   width: 100%;
   background: rgba(236, 241, 240, 1);
   /* border: 1px solid steelblue; */
-  height: 510px;
+  min-height: 510px;
   padding-top: 35px;
 }
 .feedback-wrap h1{
@@ -401,24 +401,24 @@
 }
 .feedback-image{
   width: 100%;
-  height: 355px;
+  min-height: 355px;
   /* border: 1px solid goldenrod; */
   margin-top: 35px;
 }
 .feedback-image img{
   width: 100%;
-  height: 350px;
+  min-height: 350px;
   object-fit: cover;
 }
 .subscribe-wrap{
   width: 100%;
-  height: 700px;
+  min-height: 700px;
   /* border: 1px solid blueviolet; */
 }
 .subscribe-content{
   /* border: 1px solid maroon; */
   width: 50%;
-  height: 240px;
+  min-height: 240px;
   margin: 70px auto;
   border-radius: 129px 20px 20px 20px;
   background: rgba(159, 255, 236, 0.3);
@@ -426,7 +426,7 @@
 .subscribe-content h1{
   text-align: center;
   font-size: 18px;
-  width: 500px;
+  max-width: 500px;
   margin: 35px auto;
   padding-top: 35px;
 }
@@ -437,7 +437,7 @@
   position: absolute;
   bottom: 85px;
   left: 590px;
-  width: 40px;
+  max-width: 40px;
   margin-top: 40px;
 }
 .subscribe-form{
@@ -492,10 +492,10 @@
 .ftr-column img{
   margin-top: -28px;
   margin-bottom: 20px;
-  width: 50px;
+  max-width: 50px;
 }
 .ftr-column p{
-  width: 160px;
+  max-width: 160px;
   font-size: 10px;
   color: rgba(94, 98, 130, 1);
 
@@ -525,7 +525,7 @@
   font-size: 13px;
 }
 .ftr5 img{
-  width: 100px;
+  max-width: 100px;
   height: 60px;
   object-fit: contain;
   object-position: center;
