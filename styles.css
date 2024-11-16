@@ -275,8 +275,8 @@
   /* border: 1px solid sandybrown; */
 }
 .package-description {
-  max-width: 301px;
-  min-height: 390px;
+  width: 301px;
+  height: 400px;
   /* display: flex;
   flex-direction: column;
   align-items: center; */
@@ -285,10 +285,10 @@
   border-radius: 10px;
 }
 .pd-img {
-  max-width: 301px;
-  min-height: 250px;
-  object-fit: cover;
-  object-position: top;
+  width: 301px;
+  height: 260px;
+  /* object-fit: cover; */
+  object-position: cover;
 }
 .package-description-one {
   max-width: 300px;
@@ -436,7 +436,7 @@
 .top-right-image{
   position: absolute;
   bottom: 85px;
-  left: 590px;
+  left: 640px;
   width: 40px;
   margin-top: 40px;
 }
