@@ -628,7 +628,7 @@ html {
   }
   .destination-wrap {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     padding-right: 60px;
   }
   .destination-wrap-img{
@@ -640,7 +640,7 @@ html {
     background-blend-mode: overlay;
   }
   .destination-wrap h1 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     padding-top: 25px;
     margin: auto;
   }
@@ -658,6 +658,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  gap: 20px;
   }
   .des-img-one {
     width: 130px;
@@ -710,12 +711,15 @@ html {
     flex-direction: column;
     margin-top: 20px;
   }
+  .booking-wrap-side-all{
+    gap: 30px;
+  }
   .bk-text{
     font-size: 0.8em;
   }
   .feedback-wrap {
     width: 100%;
-    height:250px;
+    height:300px;
     padding-top: 25px;
   }
   .feedback-wrap h1 {
